@@ -4,15 +4,6 @@
 
 all: help
 
-help:
-	@echo "Usage: make [target]"
-	@echo "Available targets:"
-	@echo "  setup        Run the setup script to configure the project"
-	@echo "  run-dev      Setup and start the development server (with graceful shutdown)"
-	@echo "  build-prod   Build the project for production"
-	@echo "  start-prod   Start the production server (after building)"
-	@echo "  run-prod     Build and start the production server"
-	@echo "  clean        Clean up generated artifacts"
 
 setup:
 	@echo "🔧 Running setup.sh…"
@@ -25,6 +16,9 @@ run-dev:
 build-prod:
 	@echo "📦 Building for production…"
 	@npm run build
+
+
+fdsfsdfs sdf
 
 start-prod:
 	@echo "🚀 Starting production server…"
